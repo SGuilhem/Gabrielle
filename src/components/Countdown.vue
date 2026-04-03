@@ -13,7 +13,7 @@ const PHRASES = [
   'Tu es capable de faire tant de chose grâce à ta volonté',
   'Tu es la plus belle et la plus précieuse à mes yeux',
   "Tu vaux le coup tous les jours, je t'aime",
-  "Tu as la taille parfaite pour t'attraper et d'amener n'importe où (dans la chambre)",
+  "Tu as la taille parfaite pour t'attraper et t'amener n'importe où",
   "Voyager avec toi à l'autre bout du monde est une des meilleures choses que j'ai faites",
   "J'aime ton rire quand tu te gosses sur une blague nulle, même quand tu fais le cochon",
   "T'es sacrément fineaude aussi, j'adore ça",
@@ -22,6 +22,7 @@ const PHRASES = [
   'Hello hello Sexy Razowsky',
   "J'espère que tu vas avoir dans la tête 'GIVE ME COMPLIMENTS, GIVE ME COMPLIMENTS!''",
   "With a taste of your lips, I'm on a ride",
+  'Avec toi je serai prêt à tout Benchmark, même les tubes de colle',
 ]
 
 const PHOTOS = [
