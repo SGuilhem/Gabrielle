@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 // ── CONFIG ──────────────────────────────────────────────────
-const TARGET_DATE = new Date('2026-04-03T17:00:00')
+const TARGET_DATE = new Date('2026-04-03T16:30:00')
 
 const SURPRISE_ADDRESS = `Métro Grands Boulevards\nRamène ton joli boulard (sortie 1)`
 
