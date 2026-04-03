@@ -48,6 +48,21 @@ const PHOTOS = [
   'photos/photo21.jpeg',
   'photos/photo22.jpeg',
   'photos/photo23.jpeg',
+  'photos/photo24.jpeg',
+  'photos/photo25.jpeg',
+  'photos/photo26.jpeg',
+  'photos/photo27.jpeg',
+  'photos/photo28.jpeg',
+  'photos/photo29.jpeg',
+  'photos/photo30.jpeg',
+  'photos/photo31.jpeg',
+  'photos/photo32.jpeg',
+  'photos/photo33.jpeg',
+  'photos/photo34.jpeg',
+  'photos/photo35.jpeg',
+  'photos/photo36.jpeg',
+  'photos/photo37.jpeg',
+  'photos/photo38.jpeg',
 ]
 // ────────────────────────────────────────────────────────────
 
@@ -135,6 +150,24 @@ const pad = (n) => String(n).padStart(2, '0')
             {{ SURPRISE_ADDRESS }}
           </p>
         </div>
+      </div>
+    </div>
+    <div class="absolute z-10 mx-8" style="top: 80%">
+      <div
+        class="flex flex-col items-center gap-2 px-6 py-4 text-center text-white rounded-2xl"
+        style="
+          backdrop-filter: blur(12px);
+          background: rgba(0, 0, 0, 0.35);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+        "
+      >
+        <p
+          v-if="!isFinished"
+          class="text-lg md:text-2xl font-light italic tracking-wide drop-shadow"
+        >
+          Si tu veux bien qu'on se retrouve ce soir, à la fin du compte à rebours, d'autres infos te
+          seront données! Bon journée et Bisous!
+        </p>
       </div>
     </div>
   </div>
